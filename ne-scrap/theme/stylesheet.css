@@ -1,0 +1,189 @@
+/*  phpBB3 Style Sheet
+    --------------------------------------------------------------
+	Style name:			ne-scrap
+	Based on style:	 prosilver	
+	Original author:	Tom Beddard ( http://www.subblue.com/ )
+	Modified by:		phpBB Limited ( https://www.phpbb.com/ )
+	Modified by:		Bernhard ( http://www.nachtelb.de/ )
+    --------------------------------------------------------------
+
+ */
+
+body {
+  padding: 0px;
+  background:linear-gradient(to right, white, orange, orange, white);
+  color: #542E12;
+}
+
+#wrap {
+	max-width: 900px;
+	margin-left: auto;
+  margin-right: auto;
+  border-radius: 0px;
+  padding: 0px 15px 15px 15px;
+}
+
+#site-description {
+  padding: 0px 0px 0px 15px;
+  width: 50%;
+}
+
+#site-description h1 {
+	margin-top: 15px;
+  font-size: 3em;
+  color: orange;
+  text-shadow: 1px -1px 0 #000, -1px 1px 0 #000;
+}
+
+#site-description p{
+  font-size: 1.5em;
+  color: orange;
+  text-shadow: 1px -1px 0 #000, -1px 1px 0 #000;
+}
+
+.headerbar {
+  height: 100px;
+  background-color: #02324A;
+  background-image: url("./images/header.jpg");
+  color: #FFF;
+  margin-bottom: 20px;
+  border-radius: 0px 0px 7px 7px;
+}
+
+.navbar {
+    background-color: #FFC889;
+}
+
+.search-header {
+  box-shadow: 0px 0px 10px #919395;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.logo {
+  display: none;
+}
+
+.forabg, .forumbg {
+  background-color: #E79911;
+  background-image: url("./images/bg2.jpg");
+}
+
+li.row {
+    border-top-color: transparent;
+    border-bottom-color: #653E0D;
+}
+
+ul.forums {
+    background-color: #FFC889;
+    background-image: none;
+}
+
+.bg1 {
+    background-color: #FFD997;
+}
+
+.bg2 {
+    background-color: #FFC889;
+}
+
+h3 {
+    border-bottom-color: #966309;
+    color: #32200A;
+}
+
+a {
+    color: #32200A;
+}
+
+a:hover {
+    color: #0D5B80;
+}
+
+.icon-acp					{ background-image: url("./images/icon_acp.gif"); }
+.icon-bookmark				{ background-image: url("./images/icon_bookmark.gif"); }
+.icon-bump					{ background-image: url("./images/icon_bump.gif"); }
+.icon-contact				{ background-image: url("./images/icon_pm.gif"); }
+.icon-delete-cookies		{ background-image: url("./images/icon_delete_cookies.gif"); }
+.icon-download				{ background-image: url("./images/icon_download.gif"); }
+.icon-faq					{ background-image: url("./images/icon_faq.gif"); }
+.icon-home					{ background-image: url("./images/icon_home.gif"); }
+.icon-logout				{ background-image: url("./images/icon_logout.gif"); }
+.icon-mark					{ background-image: url("./images/icon_mark.gif"); }
+.icon-mcp					{ background-image: url("./images/icon_mcp.gif"); }
+.icon-members				{ background-image: url("./images/icon_members.gif"); }
+.icon-notification			{ background-image: url("./images/icon_notification.gif"); }
+.icon-pages					{ background-image: url("./images/icon_pages.gif"); }
+.icon-pm					{ background-image: url("./images/icon_pm.gif"); }
+.icon-print					{ background-image: url("./images/icon_print.gif"); }
+.icon-profile				{ background-image: url("./images/icon_profile.gif"); }
+.icon-register				{ background-image: url("./images/icon_register.gif"); }
+.icon-search, .responsive-search a	{ background-image: url("./images/icon_search.gif"); }
+.icon-search-active			{ background-image: url("./images/subforum_read.gif"); }
+.icon-search-new			{ background-image: url("./images/subforum_unread.gif"); }
+.icon-search-self			{ background-image: url("./images/icon_topic_latest.gif"); }
+.icon-search-unanswered		{ background-image: url("./images/icon_post_target.gif"); }
+.icon-search-unread			{ background-image: url("./images/subforum_unread.gif"); }
+.icon-sendemail				{ background-image: url("./images/icon_sendemail.gif"); }
+.icon-subscribe				{ background-image: url("./images/icon_subscribe.gif"); }
+.icon-team					{ background-image: url("./images/icon_team.gif"); }
+.icon-ucp					{ background-image: url("./images/icon_ucp.gif"); }
+.icon-unsubscribe			{ background-image: url("./images/icon_unsubscribe.gif"); }
+
+.icon-button:before, .dropdown-select:after						{ background-image: url("./images/icons_button.png"); }
+
+/* Forum icons & Topic icons */
+.global_read													{ background-image: url("./images/announce_read.gif"); }
+.global_read_mine												{ background-image: url("./images/announce_read_mine.gif"); }
+.global_read_locked												{ background-image: url("./images/announce_read_locked.gif"); }
+.global_read_locked_mine										{ background-image: url("./images/announce_read_locked_mine.gif"); }
+.global_unread													{ background-image: url("./images/announce_unread.gif"); }
+.global_unread_mine												{ background-image: url("./images/announce_unread_mine.gif"); }
+.global_unread_locked											{ background-image: url("./images/announce_unread_locked.gif"); }
+.global_unread_locked_mine										{ background-image: url("./images/announce_unread_locked_mine.gif"); }
+
+.announce_read													{ background-image: url("./images/announce_read.gif"); }
+.announce_read_mine												{ background-image: url("./images/announce_read_mine.gif"); }
+.announce_read_locked											{ background-image: url("./images/announce_read_locked.gif"); }
+.announce_read_locked_mine										{ background-image: url("./images/announce_read_locked_mine.gif"); }
+.announce_unread												{ background-image: url("./images/announce_unread.gif"); }
+.announce_unread_mine											{ background-image: url("./images/announce_unread_mine.gif"); }
+.announce_unread_locked											{ background-image: url("./images/announce_unread_locked.gif"); }
+.announce_unread_locked_mine									{ background-image: url("./images/announce_unread_locked_mine.gif"); }
+
+.forum_link														                       { background-image: url("./images/forum_link.gif"); }
+.forum_read, .forum_read_subforum, .forum_read_locked			   { background-image: url("./images/forum_read.gif"); }
+.forum_unread, .forum_unread_subforum, .forum_unread_locked	 { background-image: url("./images/forum_unread.gif"); }
+
+.sticky_read													{ background-image: url("./images/sticky_read.gif"); }
+.sticky_read_mine												{ background-image: url("./images/sticky_read_mine.gif"); }
+.sticky_read_locked												{ background-image: url("./images/sticky_read_locked.gif"); }
+.sticky_read_locked_mine										{ background-image: url("./images/sticky_read_locked_mine.gif"); }
+.sticky_unread													{ background-image: url("./images/sticky_unread.gif"); }
+.sticky_unread_mine												{ background-image: url("./images/sticky_unread_mine.gif"); }
+.sticky_unread_locked											{ background-image: url("./images/sticky_unread_locked.gif"); }
+.sticky_unread_locked_mine										{ background-image: url("./images/sticky_unread_locked_mine.gif"); }
+
+.topic_moved													{ background-image: url("./images/topic_moved.gif"); }
+.topic_read														{ background-image: url("./images/topic_read.gif"); }
+.topic_read_mine												{ background-image: url("./images/topic_read_mine.gif"); }
+.topic_read_hot													{ background-image: url("./images/topic_read_hot.gif"); }
+.topic_read_hot_mine											{ background-image: url("./images/topic_read_hot_mine.gif"); }
+.topic_read_locked												{ background-image: url("./images/topic_read_locked.gif"); }
+.topic_read_locked_mine											{ background-image: url("./images/topic_read_locked_mine.gif"); }
+.topic_unread													{ background-image: url("./images/topic_unread.gif"); }
+.topic_unread_mine												{ background-image: url("./images/topic_unread_mine.gif"); }
+.topic_unread_hot												{ background-image: url("./images/topic_unread_hot.gif"); }
+.topic_unread_hot_mine											{ background-image: url("./images/topic_unread_hot_mine.gif"); }
+.topic_unread_locked											{ background-image: url("./images/topic_unread_locked.gif"); }
+.topic_unread_locked_mine										{ background-image: url("./images/topic_unread_locked_mine.gif"); }
+
+.pm_read														{ background-image: url("./images/topic_read.gif"); }
+.pm_unread														{ background-image: url("./images/topic_unread.gif"); }
+
+
+
+
+
+
+
